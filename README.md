@@ -9,11 +9,6 @@ A simple Python-based Azure Function that generates menu items (or menus) progra
 - [Features](#features)  
 - [Prerequisites](#prerequisites)  
 - [Installation](#installation)  
-- [Usage](#usage)  
-- [Configuration](#configuration)  
-- [Development](#development)  
-- [Testing](#testing)  
-- [License](#license)  
 
 ---
 
@@ -40,3 +35,4 @@ A simple Python-based Azure Function that generates menu items (or menus) progra
    ```bash
    git clone https://github.com/misantibanez/gutwise-generate-menu.git
    cd gutwise-generate-menu
+
