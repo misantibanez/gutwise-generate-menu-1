@@ -62,7 +62,6 @@ RESPONSE_FORMAT = {
         "schema": {
             "type": "object",
             "additionalProperties": False,
-            # 👇 TODOS los keys de properties deben ir aquí
             "required": ["restaurant_name", "items"],
             "properties": {
                 "restaurant_name": {"type": ["string", "null"]},
@@ -184,3 +183,4 @@ def generate_menu(req: func.HttpRequest) -> func.HttpResponse:
             status_code=500,
             mimetype="application/json"
         )
+
